@@ -1,0 +1,105 @@
+body {
+    font-family: 'Anaheim';
+    font-size: 1.2em;
+    color:rgb(226, 227, 228);
+  }
+  
+  #outside {
+    background-color: rgb(192, 169, 197);
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+    color:rgb(10, 156, 156);
+  }
+  
+  form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 70%;
+    /* To see the limits of the form */
+    padding: 1em;
+    border: 1px solid rgb(214, 211, 5);
+    border-radius: 1em;
+    
+  }
+  #survey-form {
+    background-color: rgb(41, 8, 30);
+  }
+  
+  fieldset { 
+    border:1px solid rgb(211, 211, 211);
+    margin: 10px;
+   }
+  
+  legend {
+    font-weight: 700;
+  }
+  
+  #number {
+    width: 150px;
+  }
+  
+  
+  div + div {
+    margin-top: 1em;
+    }
+  
+  /* label {
+    /* To make sure that all label have the same size and are properly align */
+    /* display: inline-block; */
+    /* width: 80px; */
+    /* text-align: right; */
+  } */
+  
+  input, textarea {
+    
+    width: 200px;
+  
+    border: 1px solid rgb(153, 153, 153);
+  }
+  
+  input:focus, textarea:focus {
+    /* To give a little highligh on active elements */
+    border-color: rgb(5, 54, 63);
+  }
+  
+  textarea {
+    /* To properly align multiline text field with their label */
+    vertical-align: top;
+  
+    /* To give enough room to type some text */
+    height: 5em;
+  
+    /* To allow users to resize any textarea vertically
+       It works only on Chrome, Firefox and Safari */
+    resize: vertical;
+  }
+  
+  .button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: rgba(83, 71, 85, 0.822);
+    color: rgb(228, 215, 215);
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+    
+  }
+  
+  #submitbutton {
+    display: flex; 
+    justify-content: center;
+  }
+  
+  
